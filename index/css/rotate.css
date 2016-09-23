@@ -73,7 +73,7 @@
     border-radius: 50%;
     position: absolute;
     top:0;
-    transform: rotate(15deg);
+    transform: rotate(45deg);
 }
 .rightcircle{
     border-top:5px solid #fff;
@@ -101,7 +101,7 @@
         transform: rotate(-135deg);
     }
     100%{
-        transform: rotate(15deg);
+        transform: rotate(45deg);
     }
 }
 /*第二个*/
@@ -112,7 +112,7 @@
     border-radius: 50%;
     position: absolute;
     top:0;
-    transform: rotate(-15deg);
+    transform: rotate(45deg);
 }
 .htmlcss:nth-of-type(2) .rightcircle{
     border-top:5px solid #fff;
@@ -140,7 +140,7 @@
         transform: rotate(-135deg);
     }
     100%{
-        transform: rotate(-15deg);
+        transform: rotate(45deg);
     }
 }
 
@@ -152,7 +152,7 @@
     border-radius: 50%;
     position: absolute;
     top:0;
-    transform: rotate(-35deg);
+    transform: rotate(45deg);
 }
 .htmlcss:nth-of-type(3) .rightcircle{
     border-top:5px solid #fff;
@@ -180,7 +180,7 @@
         transform: rotate(-135deg);
     }
     100%{
-        transform: rotate(-35deg);
+        transform: rotate(45deg);
     }
 }
 
@@ -193,7 +193,7 @@
     border-radius: 50%;
     position: absolute;
     top:0;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
 }
 .htmlcss:nth-of-type(4) .rightcircle{
     border-top:5px solid #fff;
@@ -221,7 +221,7 @@
         transform: rotate(-135deg);
     }
     100%{
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
     }
 }
 /*第五个*/
@@ -232,7 +232,7 @@
     border-radius: 50%;
     position: absolute;
     top:0;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
 }
 .htmlcss:nth-of-type(5) .rightcircle{
     border-top:5px solid #fff;
@@ -260,7 +260,7 @@
         transform: rotate(-135deg);
     }
     100%{
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
     }
 }
 /*第6个*/
@@ -271,7 +271,7 @@
     border-radius: 50%;
     position: absolute;
     top:0;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
 }
 .htmlcss:nth-of-type(6) .rightcircle{
     border-top:5px solid #fff;
@@ -299,7 +299,7 @@
         transform: rotate(-135deg);
     }
     100%{
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
     }
 }
 
