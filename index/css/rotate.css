@@ -1,0 +1,396 @@
+/*第三屏*/
+.ferris{
+    width: 1000px;
+    height: 100%;
+    margin:auto;
+    position: relative;
+}
+.htmlcss{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    text-align: center;
+    line-height: 140px;
+    transition: all 2s;
+    z-index: 999;
+}
+.htmlcss span{
+    font-size: 18px;
+    color: #000;
+}
+.xian{
+    width: 138px;
+    height: 138px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.htmlcss:nth-of-type(1){
+    left: 105px;
+    top:80px;
+}
+
+.htmlcss:nth-of-type(2){
+    left: 405px;
+    top:80px;
+}
+.htmlcss:nth-of-type(3){
+    left: 705px;
+    top:80px;
+}
+.htmlcss:nth-of-type(4){
+    left: 105px;
+    top:380px;
+}
+.htmlcss:nth-of-type(5){
+    left: 405px;
+    top:380px;
+}
+.htmlcss:nth-of-type(6){
+    left: 705px;
+    top:380px;
+}
+.htmlcss .left,.htmlcss .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+}
+.htmlcss .left{
+    left: 0;
+}
+.htmlcss .right{
+    right: 0;
+}
+/*第一个*/
+.circleProgress{
+    width: 140px;
+    height: 140px;
+    border:5px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform: rotate(15deg);
+}
+.rightcircle{
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+    right:0;
+    transform: rotate(45deg);
+    /*animation: circleProgressLoad_right 5s linear ;*/
+}
+.leftcircle{
+    border-bottom:5px solid #fff;
+    border-left:5px solid #fff;
+    left:0;
+    /*animation: circleProgressLoad_left 5s linear ;*/
+}
+@keyframes circleProgressLoad_right{
+    0%{
+        transform: rotate(-135deg);
+    }
+    50%,100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes circleProgressLoad_left{
+    0%,50%{
+        transform: rotate(-135deg);
+    }
+    100%{
+        transform: rotate(15deg);
+    }
+}
+/*第二个*/
+.htmlcss:nth-of-type(2) .circleProgress{
+    /*width: 140px;*/
+    /*height: 140px;*/
+    border:5px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform: rotate(-15deg);
+}
+.htmlcss:nth-of-type(2) .rightcircle{
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+    right:0;
+    transform: rotate(45deg);
+    /*animation: circleProgressLoad_right2 5s linear ;*/
+}
+.htmlcss:nth-of-type(2) .leftcircle{
+    border-bottom:5px solid #fff;
+    border-left:5px solid #fff;
+    left:0;
+    /*animation: circleProgressLoad_left2 5s linear ;*/
+}
+@keyframes circleProgressLoad_right2{
+    0%{
+        transform: rotate(-135deg);
+    }
+    50%,100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes circleProgressLoad_left2{
+    0%,50%{
+        transform: rotate(-135deg);
+    }
+    100%{
+        transform: rotate(-15deg);
+    }
+}
+
+/*第三个*/
+.htmlcss:nth-of-type(3) .circleProgress{
+    /*width: 140px;*/
+    /*height: 140px;*/
+    border:5px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform: rotate(-35deg);
+}
+.htmlcss:nth-of-type(3) .rightcircle{
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+    right:0;
+    transform: rotate(45deg);
+    /*animation: circleProgressLoad_right3 5s linear ;*/
+}
+.htmlcss:nth-of-type(3) .leftcircle{
+    border-bottom:5px solid #fff;
+    border-left:5px solid #fff;
+    left:0;
+    /*animation: circleProgressLoad_left3 5s linear ;*/
+}
+@keyframes circleProgressLoad_right3{
+    0%{
+        transform: rotate(-135deg);
+    }
+    50%,100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes circleProgressLoad_left3{
+    0%,50%{
+        transform: rotate(-135deg);
+    }
+    100%{
+        transform: rotate(-35deg);
+    }
+}
+
+
+/*第四个*/
+.htmlcss:nth-of-type(4) .circleProgress{
+    /*width: 140px;*/
+    /*height: 140px;*/
+    border:5px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform: rotate(-45deg);
+}
+.htmlcss:nth-of-type(4) .rightcircle{
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+    right:0;
+    transform: rotate(45deg);
+    /*animation: circleProgressLoad_right4 5s linear ;*/
+}
+.htmlcss:nth-of-type(4) .leftcircle{
+    border-bottom:5px solid #fff;
+    border-left:5px solid #fff;
+    left:0;
+    /*animation: circleProgressLoad_left4 5s linear ;*/
+}
+@keyframes circleProgressLoad_right4{
+    0%{
+        transform: rotate(-135deg);
+    }
+    50%,100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes circleProgressLoad_left4{
+    0%,50%{
+        transform: rotate(-135deg);
+    }
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+/*第五个*/
+.htmlcss:nth-of-type(5) .circleProgress{
+    /*width: 140px;*/
+    /*height: 140px;*/
+    border:5px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform: rotate(-45deg);
+}
+.htmlcss:nth-of-type(5) .rightcircle{
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+    right:0;
+    transform: rotate(45deg);
+    /*animation: circleProgressLoad_right5 5s linear ;*/
+}
+.htmlcss:nth-of-type(5) .leftcircle{
+    border-bottom:5px solid #fff;
+    border-left:5px solid #fff;
+    left:0;
+    /*animation: circleProgressLoad_left5 5s linear ;*/
+}
+@keyframes circleProgressLoad_right5{
+    0%{
+        transform: rotate(-135deg);
+    }
+    50%,100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes circleProgressLoad_left5{
+    0%,50%{
+        transform: rotate(-135deg);
+    }
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+/*第6个*/
+.htmlcss:nth-of-type(6) .circleProgress{
+    /*width: 140px;*/
+    /*height: 140px;*/
+    border:5px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    transform: rotate(-45deg);
+}
+.htmlcss:nth-of-type(6) .rightcircle{
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+    right:0;
+    transform: rotate(45deg);
+    /*animation: circleProgressLoad_right6 5s linear ;*/
+}
+.htmlcss:nth-of-type(6) .leftcircle{
+    border-bottom:5px solid #fff;
+    border-left:5px solid #fff;
+    left:0;
+    /*animation: circleProgressLoad_left6 5s linear ;*/
+}
+@keyframes circleProgressLoad_right6{
+    0%{
+        transform: rotate(-135deg);
+    }
+    50%,100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes circleProgressLoad_left6{
+    0%,50%{
+        transform: rotate(-135deg);
+    }
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+
+.ferris .introduce{
+    width: 150px;
+    height: 260px;
+    background: #05A4C2;
+    position: absolute;
+    left: 105px;
+    bottom: 20px;
+    text-align: center;
+    padding-top: 50px;
+    transition: all 2s;
+    opacity: 0;
+}
+.ferris .introduce span{
+    font-size: 15px;
+    line-height: 2em;
+
+}
+.ferris .myjs{
+    left: 405px;
+}
+.ferris .myjqu{
+    left: 705px;
+}
+.ferris .node-js{
+    left: 405px;
+}
+.ferris .angular-js{
+    left: 705px;
+}
+@media screen and (max-width: 1000px){
+    .ferris{
+        width: 600px;
+    }
+    .htmlcss{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .xian{
+        width: 77px;
+        height: 77px;
+    }
+    .circleProgress{
+        width: 80px;
+        height: 80px;
+    }
+    .htmlcss span{
+        font-size: 14px;
+    }
+    .htmlcss:nth-of-type(1){
+        left: 70px;
+    }
+
+    .htmlcss:nth-of-type(2){
+        left: 270px;
+    }
+    .htmlcss:nth-of-type(3){
+        left: 470px;
+    }
+    .htmlcss:nth-of-type(4){
+        left: 70px;
+    }
+    .htmlcss:nth-of-type(5){
+        left: 270px;
+    }
+    .htmlcss:nth-of-type(6){
+        left: 470px;
+    }
+    .ferris .introduce{
+        width: 100px;
+        left: 60px;
+
+    }
+    .ferris .introduce span{
+        font-size: 13px;
+        line-height: 2em;
+
+    }
+    .ferris .myjs{
+        left: 260px;
+    }
+    .ferris .myjqu{
+        left: 460px;
+    }
+    .ferris .node-js{
+        left: 260px;
+    }
+    .ferris .angular-js{
+        left: 460px;
+    }
+}
